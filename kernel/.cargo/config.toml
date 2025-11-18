@@ -1,0 +1,5 @@
+[target.'cfg(target_os = "none")']
+runner = "bootimage runner"
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
